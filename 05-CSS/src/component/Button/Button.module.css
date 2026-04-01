@@ -1,0 +1,14 @@
+.bttn{
+    /* background-color: rgb(13, 146, 234);
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px; */
+
+     background-color: hsla(134, 92%, 47%, 0.392);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin: 5px;
+}
