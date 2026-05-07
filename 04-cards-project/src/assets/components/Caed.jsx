@@ -12,6 +12,7 @@ console.log(props.company);
         <img src={props.brandlogo} alt="logo"/>
         <button>save<Bookmark size={10} /></button>
       </div>
+    
     <div className="canter">
       <h3> {props.company}<span>{props.datePosted}</span></h3>
       <h2>{props.post}</h2>
@@ -19,7 +20,9 @@ console.log(props.company);
       <h4>{props.tag1}</h4>
       <h4>{props.tag2}</h4>
     </div>
-    </div> </div>
+    </div> 
+    </div>
+
     <div className="bottom">
     <div>
         <h3>${props.pay}</h3>

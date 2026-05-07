@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Helvetica Neue';
-
+  color:white;
 }
 html,
 body{
@@ -11,14 +11,17 @@ body{
   width: 100%;
 
 }
+body{
+  background-color: black;
+}
 .card{
-  background-color: aquamarine;
+  background-color: rgb(4, 132, 89);
   border-radius: 10px;
   margin: 20px;
   padding: 20px;
 }
 .nav{
-  background-color: lightcoral;
+  background-color: rgb(158, 13, 13);
   border-radius: 10px;
   margin: 20px;
   padding: 20px;

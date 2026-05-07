@@ -4,9 +4,11 @@ import Card from './assets/component/card'
 const App = () => {
   return (
     <div className='parent'>
-  <Card  user='Alice' age={12} img='https://images.unsplash.com/photo-1773777910397-2162b3ec2809?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'/>
-  <Card  user='John' age={25} img='https://images.unsplash.com/photo-1773408151429-4add3b61d7bb?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'/>
-  <Card  user='i am' age={30} img='https://images.unsplash.com/photo-1773614507456-f95376a957e7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDM2fDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D'/>
+  <Card  user='parrot' age={12} img='https://images.unsplash.com/photo-1555169062-013468b47731?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cGFycm90fGVufDB8fDB8fHww' words='The parrot is a green bird with a red beak. It can mimic human speech. Parrots eat fruits, seeds, and nuts.'/>
+   <Card user='pigeon ' age={43} img='https://images.unsplash.com/photo-1560190929-c3a0e7db1d7d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBpZ2VvbnxlbnwwfHwwfHx8MA%3D%3D' words='The pigeon is a common city bird. It has a short, thick beak and is often seen in urban areas.'/>
+   <Card user='peacock' age={43} img='https://images.unsplash.com/photo-1572877183903-f6f33bbfa7c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGVhY29ja3xlbnwwfHwwfHx8MA%3D%3D' words='The peacock is a large, colorful bird known for its elaborate tail feathers.'/>
+    <Card user='crow ' age={43} img='https://plus.unsplash.com/premium_photo-1673491310534-ea8af31c93ee?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3Jvd3xlbnwwfHwwfHx8MA%3D%3D'words='The crow is a common bird with black feathers and a strong, curved beak.'/>
+<Card user='sparrow ' age={43} img='https://images.unsplash.com/photo-1560779671-cf681817f968?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3BhcnJvd3xlbnwwfHwwfHx8MA%3D%3D'words='The sparrow is a small, brown bird often seen in gardens and parks.'/>
 </div>
   
   )
