@@ -12,7 +12,6 @@ const RightContent = ({users}) => {
       </div>
     );
   }
-
   return (
     <div id='right' className='h-full flex overflow-auto rounded-4xl flex-nowrap gap-10 p-6 w-2/3'>
       {users.map((elem, idx) => (
